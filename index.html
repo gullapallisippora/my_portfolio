@@ -3,21 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
+    <!-- NAVIGATION BAR -->
     <nav class="navbar">
-        <div class="logo">StudentPortfolio</div>
+        <div class="logo">MyPortfolio</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificats">Certificats and Internships</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -25,95 +25,97 @@
 
     <!-- HOME SECTION -->
     <section id="home" class="home">
-        <div class="home-content">
-            <h1>Hello, I’m <span>Sippora Gullapalli</span></h1>
-            <p>
-                Creative and motivated Computer Science student passionate about technology and innovation.
-            </p>
-            <a href="#projects" class="btn">View My Work</a>
-        </div>
-        <div class="home-image">
-            <img src="images/profile-1.jpg" alt="Student Photo">
+        <div class="home-container">
+
+            <!-- LEFT IMAGE -->
+            <div class="home-image">
+                <img src="images/profile-1.jpg" alt="Student Photo">
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="home-content">
+                <h1>Hello, I'm <span>Sippora Gullapalli Name</span></h1>
+                <h3>Computer science Student</h3>
+                <p>
+                    A motivated and passionate student seeking opportunities to
+                    apply technical knowledge, develop skills, and grow professionally.
+                </p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+
         </div>
     </section>
 
     <!-- ABOUT SECTION -->
     <section id="about" class="about">
-        <h2 class="section-title">About <span>Me</span></h2>
-
         <div class="about-container">
 
-            <!-- LEFT IMAGE -->
-            <div class="about-image">
-                <img src="images/profile-1.jpg" alt="Student Photo">
+            <!-- LEFT CONTENT -->
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <p>
+                    I am an enthusiastic Computer Science student with a strong interest in
+                    learning new technologies and applying theoretical knowledge to
+                    real-world problems. I am highly motivated, self-driven, and eager
+                    to build a successful professional career.
+                </p>
+
+                <p>
+                    I enjoy working in team environments, solving technical challenges,
+                    and continuously improving my skills through projects, internships,
+                    and certifications.
+                </p>
+
+                <a href="#projects" class="btn">View Projects</a>
             </div>
 
-            <!-- RIGHT CONTENT -->
-            <div class="about-content">
-                <p>
-                    I am a motivated engineering student with a passion for
-                    technology, coding, and problem-solving. I love learning
-                    new skills and applying them to real-world projects.
-                </p>
-                <p>
-                    My goal is to grow professionally, contribute to meaningful
-                    projects, and constantly improve my technical and soft skills.
-                </p>
-
-                <!-- Resume Download Button -->
-                <a href="C:\Users\intel\Downloads\Sippora 0306.pdf" download class="btn resume-btn">Download Resume</a>
-
-                <div class="about-cards">
-                    <div class="about-card">
-                        <h3>Education</h3>
-                        <p>Bachelor of Computer Applications</p>
-                    </div>
-                    <div class="about-card">
-                        <h3>Experience</h3>
-                        <p>Internships & Projects</p>
-                    </div>
-                    <div class="about-card">
-                        <h3>Skills</h3>
-                        <p>Programming & Development</p>
-                    </div>
-                </div>
+            <!-- RIGHT INFO BOX -->
+            <div class="about-info">
+                <div class="info-item"><strong>Name:</strong> Sippora Gullapalli</div>
+                <div class="info-item"><strong>Degree:</strong> BCA</div>
+                <div class="info-item"><strong>Branch:</strong> Computer Applications</div>
+                <div class="info-item"><strong>Email:</strong> gullapallisippora@email.com</div>
+                <div class="info-item"><strong>Location:</strong> India</div>
             </div>
 
         </div>
     </section>
 
+
     <!-- EDUCATION SECTION -->
     <section id="education" class="education">
-        <h2 class="section-title">Education <span>Timeline</span></h2>
+        <h2 class="section-title">My <span>Education</span></h2>
 
-        <div class="timeline">
+        <div class="education-container">
 
-            <!-- Timeline Item 1 -->
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Bachelor of Computer Applications</h3>
-                    <span>2023 - Present</span>
-                    <p>Studying Bachelor of Computer apllications at Aditya Degree College, focusing on software development and embedded
-                        systems.</p>
-                </div>
+            <div class="education-card">
+                <h3>Bachelor of Computer Applications</h3>
+                <p class="edu-institute">Aditya Degree College</p>
+                <p class="edu-year">2023 – 2026</p>
+                <p class="edu-desc">
+                    Specialized in core Computer Science subjects with hands-on
+                    experience through labs, mini projects, and seminars.
+                </p>
             </div>
 
-            <!-- Timeline Item 2 -->
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Balaji E.M High School</h3>
-                    <span>2020 - 2021</span>
-                    <p>Completed Higher Secondary Education in Science stream with excellent grades.</p>
-                </div>
+            <div class="education-card">
+                <h3>Higher Secondary (12th)</h3>
+                <p class="edu-institute">NRI Junior College</p>
+                <p class="edu-year">2021 – 2023</p>
+                <p class="edu-desc">
+                    Completed higher secondary education with strong
+                    fundamentals in Mathematics and Economics.
+                </p>
             </div>
 
-            <!-- Timeline Item 3 -->
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3> NRI Junior College</h3>
-                    <span>2021 - 2023</span>
-                    <p>Completed Secondary Education with a strong foundation in Mathematics and Economics.</p>
-                </div>
+            <div class="education-card">
+                <h3>Secondary School (10th)</h3>
+                <p class="edu-institute">Balaji E.M High School</p>
+                <p class="edu-year">2020 – 2021</p>
+                <p class="edu-desc">
+                    Built a solid academic foundation with consistent
+                    performance across all subjects.
+                </p>
             </div>
 
         </div>
@@ -124,30 +126,75 @@
         <h2 class="section-title">My <span>Skills</span></h2>
 
         <div class="skills-container">
+
+            <!-- TECHNICAL SKILLS -->
             <div class="skill-card">
-                <h3>HTML</h3>
-                <p>Expert in building responsive web pages</p>
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>C / C++</li>
+                    <li>SQL</li>
+                    <li>Data Structures</li>
+                </ul>
             </div>
+
+            <!-- SOFT SKILLS -->
             <div class="skill-card">
-                <h3>CSS</h3>
-                <p>Creative designs with Flexbox, Grid, and Animations</p>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Team Work</li>
+                    <li>Problem Solving</li>
+                    <li>Time Management</li>
+                    <li>Leadership</li>
+                    <li>Adaptability</li>
+                </ul>
             </div>
-            <div class="skill-card">
-                <h3>JavaScript</h3>
-                <p>Interactive web apps and front-end logic</p>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATES & INTERNSHIPS SECTION -->
+    <section id="certificats" class="certificats">
+        <h2 class="section-title">Certificates & <span>Internships</span></h2>
+
+        <div class="certificats-container">
+
+            <!-- CERTIFICATE CARD -->
+            <div class="cert-card">
+                <h3>Web Development Certification</h3>
+                <p class="cert-org">Issued by: Coursera</p>
+                <p class="cert-year">2024</p>
+                <p class="cert-desc">
+                    Completed a comprehensive course covering HTML, CSS,
+                    JavaScript, and responsive web design.
+                </p>
             </div>
-            <div class="skill-card">
-                <h3>Python</h3>
-                <p>Data analysis and automation scripts</p>
+
+            <!-- INTERNSHIP CARD -->
+            <div class="cert-card">
+                <h3>Microsoft Azure Internship</h3>
+                <p class="cert-org">Organization:Tenchon Infra</p>
+                <p class="cert-year">March 2025 – April 2025</p>
+                <p class="cert-desc">
+                    Worked on real-time projects, collaborated with a team,
+                    and gained hands-on experience in cloud development.
+                </p>
             </div>
-            <div class="skill-card">
-                <h3>Git & GitHub</h3>
-                <p>Version control and collaborative development</p>
+
+            <!-- CERTIFICATE CARD -->
+            <div class="cert-card">
+                <h3>Python Programming Certificate</h3>
+                <p class="cert-org">Issued by: Cisco</p>
+                <p class="cert-year">2025</p>
+                <p class="cert-desc">
+                    Gained strong knowledge of Python fundamentals, data types,
+                    and problem-solving techniques.
+                </p>
             </div>
-            <div class="skill-card">
-                <h3>React</h3>
-                <p>Building modern web applications</p>
-            </div>
+
         </div>
     </section>
 
@@ -158,59 +205,58 @@
         <div class="projects-container">
 
             <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>Responsive personal portfolio using HTML, CSS, and JS.</p>
-                <span class="tech">HTML | CSS | JS</span>
+                <h3>Student Portfolio Website</h3>
+                <p class="project-tech">Technologies: HTML, CSS</p>
+                <p class="project-desc">
+                    Designed and developed a responsive personal portfolio
+                    website to showcase academic profile and skills.
+                </p>
             </div>
 
             <div class="project-card">
-                <h3>To-Do App</h3>
-                <p>Interactive to-do app with local storage functionality.</p>
-                <span class="tech">HTML | CSS | JS</span>
+                <h3>Bank Management System</h3>
+                <p class="project-tech">Technologies: Python</p>
+                <p class="project-desc">
+                    Developed a console-based application to manage bank
+                    accounts, transactions, and user authentication.
+                </p>
             </div>
 
             <div class="project-card">
-                <h3>Python Automation</h3>
-                <p>Automated repetitive tasks using Python scripts.</p>
-                <span class="tech">Python</span>
-            </div>
-
-            <div class="project-card">
-                <h3>React Blog</h3>
-                <p>Modern blog app built with React and Firebase backend.</p>
-                <span class="tech">React | Firebase</span>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="contact">
-        <h2 class="section-title">Contact <span>Me</span></h2>
-
-        <div class="contact-container">
-
-            <div class="contact-card">
-                <p><strong>Email:</strong> <a href="mailto:gullapallisippora@email.com">gullapallisippora@email.com</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+7842119019">+784211 9019</a></p>
-                <p><strong>Location:</strong> India</p>
-                <p><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/sippora-gullapalli-17a67a274l"
-                        target="_blank">www.linkedin.com/in/sippora-gullapalli-17a67a274l</a></p>
-                <p><strong>GitHub:</strong> <a href=">https://github.com/gullapallisippora" target="_blank">https://github.com/gullapallisippora</a>
+                <h3>IoT Smart Monitoring System</h3>
+                <p class="project-tech">Technologies: IoT, Sensors</p>
+                <p class="project-desc">
+                    Built an IoT-based system to monitor environmental
+                    parameters using sensors and microcontrollers.
                 </p>
             </div>
 
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p>© 2026 Sippora Portfolio. All Rights Reserved.</p>
-    </footer>
+    <!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact <span>Details</span></h2>
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+            <p><strong>Email:</strong> gullapallisippora@email.com</p>
+            <p><strong>Phone:</strong> +91 78421 19019</p>
+            <p><strong>Location:</strong> India</p>
+            <p><strong>LinkedIn:</strong> <a href="#">www.linkedin.com/in/sippora-gullapalli-17a67a274</a></p>
+            <p><strong>GitHub:</strong> <a href="#">https://github.com/gullapallisippora/my_portfolio</a></p>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2026 Student Portfolio. All Rights Reserved.</p>
+</footer>
+
 
 </body>
 
-
 </html>
-
-
